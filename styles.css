@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: #1e1e1e;
+}
+
+/* Estilo principal del header */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #111; /* Fondo del header */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+/* Logo */
+.logo h1 {
+  color: #fff;
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Menú de navegación */
+.menu {
+  display: flex;
+  gap: 15px; /* Espaciado entre los enlaces */
+}
+
+.menu a {
+  color: #ddd; /* Color del texto */
+  text-decoration: none; /* Sin subrayado */
+  font-size: 16px;
+  transition: color 0.3s ease; /* Transición para efecto hover */
+}
+
+.menu a:hover {
+  color: #4caf50; /* Color al pasar el mouse */
+}
+
+/* Botones de autenticación */
+.auth-buttons {
+  display: flex;
+  gap: 10px; /* Espaciado entre botones */
+}
+
+.auth-buttons .login,
+.auth-buttons .signup {
+  background: none; /* Sin fondo */
+  color: #fff; /* Color del texto */
+  border: 1px solid #fff; /* Borde blanco */
+  padding: 8px 15px;
+  font-size: 14px;
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.auth-buttons .login:hover {
+  background-color: #333; /* Fondo gris oscuro al pasar el mouse */
+  color: #fff;
+}
+
+.auth-buttons .signup {
+  background-color: #4caf50; /* Fondo verde */
+  border-color: #4caf50; /* Borde verde */
+  color: #111; /* Texto negro */
+}
+
+.auth-buttons .signup:hover {
+  background-color: #3e8e41; /* Verde más oscuro al pasar el mouse */
+  color: #fff;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+  padding: 20px;
+}
+
+.hero {
+  flex: 1;
+  max-width: 50%;
+  text-align: left;
+  padding: 50px 20px;
+}
+
+.hero h2 {
+  font-size: 50px;
+  color: #f0f0f0;
+}
+
+.hero p {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #ccc;
+}
+
+.cta-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  font-size: 1.5em;
+}
+
+.cta-buttons .signup {
+  background-color: #4caf50;
+  color: black;
+}
+
+.preview {
+  flex: 1;
+  max-width: 50%;
+  text-align: center;
+  margin: 30px 20px;
+}
+
+.preview h3 {
+  font-size: 24px;
+  color: #f0f0f0;
+}
+
+.preview span {
+  color: #4caf50;
+}
+
+.editor-preview img {
+  max-width: 100%;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+  background-color: #111;
+}
+
+.footer-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #222;
+  color: #ccc;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #444;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer-button:hover {
+  background-color: #4caf50;
+  color: #111;
+}
