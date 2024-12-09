@@ -12,8 +12,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #111; /* Fondo del header */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Sombra */
+  background-color: #111; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
 }
 
 /* Logo */
@@ -26,51 +26,51 @@ body {
 /* Menú de navegación */
 .menu {
   display: flex;
-  gap: 15px; /* Espaciado entre los enlaces */
+  gap: 15px; 
 }
 
 .menu a {
-  color: #ddd; /* Color del texto */
-  text-decoration: none; /* Sin subrayado */
+  color: #ddd;
+  text-decoration: none; 
   font-size: 16px;
-  transition: color 0.3s ease; /* Transición para efecto hover */
+  transition: color 0.3s ease;
 }
 
 .menu a:hover {
-  color: #4caf50; /* Color al pasar el mouse */
+  color: #4caf50; 
 }
 
 /* Botones de autenticación */
 .auth-buttons {
   display: flex;
-  gap: 10px; /* Espaciado entre botones */
+  gap: 10px; 
 }
 
 .auth-buttons .login,
 .auth-buttons .signup {
-  background: none; /* Sin fondo */
-  color: #fff; /* Color del texto */
-  border: 1px solid #fff; /* Borde blanco */
+  background: none; 
+  color: #fff; 
+  border: 1px solid #fff; 
   padding: 8px 15px;
   font-size: 14px;
-  border-radius: 5px; /* Bordes redondeados */
+  border-radius: 5px; 
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .auth-buttons .login:hover {
-  background-color: #333; /* Fondo gris oscuro al pasar el mouse */
+  background-color: #333; 
   color: #fff;
 }
 
 .auth-buttons .signup {
-  background-color: #4caf50; /* Fondo verde */
-  border-color: #4caf50; /* Borde verde */
-  color: #111; /* Texto negro */
+  background-color: #4caf50; 
+  border-color: #4caf50;
+  color: #111; 
 }
 
 .auth-buttons .signup:hover {
-  background-color: #3e8e41; /* Verde más oscuro al pasar el mouse */
+  background-color: #3e8e41; 
   color: #fff;
 }
 
